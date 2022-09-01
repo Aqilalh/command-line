@@ -1,1 +1,138 @@
-what it do baby
+shell takes your ccommands and puts them into the operating system
+$ date
+Wed Aug 31 23:28:34 EDT 2022
+$ whoami
+maged
+
+The pwd helps you by showing you which directory you in
+$ pwd
+/c/Users/maged/devProjects/txt homework
+
+cd is used to change your directory
+$ cd .
+$ cd ~
+$ cd -
+/c/Users/maged
+
+Is(list directories) is used for us to see all our fyles and directorys contents
+$ ls -a
+ ./
+ ../
+ .android/
+ .bash_history
+ .gitconfig
+ .m2/
+ .viminfo
+'3D Objects'/
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ DevProjects/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ etc..
+
+$ ls -1
+'3D Objects'/
+AppData/
+Apple/
+'Application Data'@
+Contacts/
+Cookies@
+DevProjects/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+'Local Settings'@
+MicrosoftEdgeBackups/
+Music/
+'My Documents'@
+etc..
+
+$ ls -la
+total 16734
+drwxr-xr-x 1 maged 197609       0 Aug 31 22:43  ./
+drwxr-xr-x 1 maged 197609       0 Jan 25  2022  ../
+drwxr-xr-x 1 maged 197609       0 Aug 30 13:11  .android/
+-rw-r--r-- 1 maged 197609    1334 Aug 31 21:12  .bash_history
+-rw-r--r-- 1 maged 197609      56 Aug 30 15:01  .gitconfig
+drwxr-xr-x 1 maged 197609       0 Aug 30 13:36  .m2/
+etc...
+
+Touch is used for to create a file
+$ touch mysuperduperfile
+
+History is to show us all of our previous commands
+$ history
+    1  cd documents
+    2  ls
+    3  cd Documents
+    4  pwd
+    5  ls
+    6  git -- version
+    7  git --version
+    8  cd
+    9  mkdir demofolder
+   10  cd demofolder
+   11  pwd
+   12  touch file1
+   13  ls
+   14  touch aqil.txt
+   15  ls
+   16  vi aqil.txt
+etc...
+
+Mkdir is for creating directorys
+$ mkdir nicecars
+
+rm is used to remove files also rmdir can remove directorys
+
+maged@DESKTOP-AHQ98MU MINGW64 ~
+$ rm file1
+
+maged@DESKTOP-AHQ98MU MINGW64 ~
+$ rm -f file1
+
+Help supports other commands
+
+$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+
+    Display the ARGs, separated by a single space character and followed by a
+    newline, on the standard output.
+
+    Options:
+      -n        do not append a newline
+      -e        enable interpretation of the following backslash escapes
+      -E        explicitly suppress interpretation of backslash escapes
+ma
+
+Alias helps you to nor retype the same code over and over again it can be used as a shortcut
+$ alias foobar='ls -la'
+$ alias
+alias foobar='ls -la'
+alias ll='ls -l'
+alias ls='ls -F --color=auto --show-control-chars'
+
+To logour or exit our of shell you need to do these commands
+$ exit
+$ logout
+
+
+
+
+
+
+
